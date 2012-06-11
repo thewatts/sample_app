@@ -30,7 +30,7 @@ describe "UserPages" do
 			end
 		end
 
-		describe "delete  links" do
+		describe "delete links" do
 			it { should_not have_link('delete') }			
 
 			describe "as an admin user" do
